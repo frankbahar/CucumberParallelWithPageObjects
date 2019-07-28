@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="com.frankbahar.bdd.zoho.runners.LoginFeatureRunner"/>
+      <class name="com.frankbahar.bdd.zoho.runners.ValidateCampaignsFeatureRunner"/>
+      <class name="com.frankbahar.bdd.zoho.runners.ValidateConnectFeatureRunner"/>
+      <class name="com.frankbahar.bdd.zoho.runners.ValidateSalesIQFeatureRunner"/>
+      <class name="com.frankbahar.bdd.zoho.runners.ValidateCliqFeatureRunner"/>
+      <class name="com.frankbahar.bdd.zoho.runners.ValidateCRMFeatureRunner"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.frankbahar.bdd.zoho.runners.ValidateCRMFeatureRunner">
+        <methods>
+          <include name="runCukes"/>
+        </methods>
+      </class> <!-- com.frankbahar.bdd.zoho.runners.ValidateCRMFeatureRunner -->
+      <class name="com.frankbahar.bdd.zoho.runners.ValidateCliqFeatureRunner">
+        <methods>
+          <include name="runCukes"/>
+        </methods>
+      </class> <!-- com.frankbahar.bdd.zoho.runners.ValidateCliqFeatureRunner -->
+      <class name="com.frankbahar.bdd.zoho.runners.LoginFeatureRunner">
+        <methods>
+          <include name="runCukes"/>
+        </methods>
+      </class> <!-- com.frankbahar.bdd.zoho.runners.LoginFeatureRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

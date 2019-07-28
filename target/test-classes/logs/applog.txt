@@ -1,0 +1,2 @@
+INFO    2019-06-20 18:37:58,081 [pool-1-thread-1] com.frankbahar.bdd.zoho.steps.BaseSteps  - Configuration file loaded !!!
+INFO    2019-06-20 18:38:00,799 [pool-1-thread-1] com.frankbahar.bdd.zoho.steps.BaseSteps  - chrome browser Launched

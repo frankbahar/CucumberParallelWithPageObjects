@@ -1,0 +1,4 @@
+com\frankbahar\bdd\zoho\runners\LoginFeatureRunner.class
+com\frankbahar\bdd\zoho\steps\BaseSteps.class
+com\frankbahar\bdd\zoho\steps\ZohoSteps.class
+com\frankbahar\bdd\zoho\runners\ValidateCRMFeatureRunner.class

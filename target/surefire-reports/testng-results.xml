@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42322" started-at="2019-06-20T20:10:37Z" finished-at="2019-06-20T20:11:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="42322" started-at="2019-06-20T20:10:37Z" finished-at="2019-06-20T20:11:20Z">
+      <class name="com.frankbahar.bdd.zoho.runners.ValidateCRMFeatureRunner">
+        <test-method status="PASS" signature="runCukes()[pri:0, instance:com.frankbahar.bdd.zoho.runners.ValidateCRMFeatureRunner@27f674d]" name="runCukes" duration-ms="34397" started-at="2019-06-20T16:10:37Z" finished-at="2019-06-20T16:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCukes -->
+      </class> <!-- com.frankbahar.bdd.zoho.runners.ValidateCRMFeatureRunner -->
+      <class name="com.frankbahar.bdd.zoho.runners.LoginFeatureRunner">
+        <test-method status="PASS" signature="runCukes()[pri:0, instance:com.frankbahar.bdd.zoho.runners.LoginFeatureRunner@1cd072a9]" name="runCukes" duration-ms="42307" started-at="2019-06-20T16:10:37Z" finished-at="2019-06-20T16:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCukes -->
+      </class> <!-- com.frankbahar.bdd.zoho.runners.LoginFeatureRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
